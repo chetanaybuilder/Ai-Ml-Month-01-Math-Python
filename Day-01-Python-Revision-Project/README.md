@@ -1,75 +1,108 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/AI%20%2F%20ML%20LEARNING%20JOURNEY-DAY%2001-14213D?style=for-the-badge&labelColor=0B132B" alt="AI and ML Learning Journey — Day 01">
+# Python Core Revision
 
-## Python Core Revision
+### A small command-line quiz demonstrating Python fundamentals
 
-### A two-question command-line quiz
-
-*A focused first step: revisit Python, build something practical, and keep moving forward.*
+Two fixed general-knowledge questions, immediate answer feedback, and a final score — built as a practical Python revision exercise.
 
 [![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Zero dependencies](https://img.shields.io/badge/Dependencies-Zero-198754?style=flat-square)](#)
-[![Day 01](https://img.shields.io/badge/PROJECT-DAY%2001-6F42C1?style=flat-square)](#)
+[![Dependencies](https://img.shields.io/badge/External%20dependencies-none-2E7D32?style=flat-square)](#technologies)
+[![Category](https://img.shields.io/badge/Category-Command--line%20application-44546A?style=flat-square)](#)
 
 </div>
 
 ---
 
-## 📌 Day 01
+## Overview
 
-For Day 01 of my AI/ML journey, I revised Python fundamentals and built this beginner-friendly quiz to put them into practice. It asks two questions, checks each response, and presents the score in a styled terminal interface.
+Python Core Revision is a beginner-friendly terminal quiz created to put core Python syntax into practice. When run, it displays a welcome banner, prompts the player to answer two questions, checks each response, and reports a score out of two with a short result message.
 
-## 🖥️ Preview
+The answers are built into the program. Input matching ignores capitalization and leading or trailing whitespace; the quiz does not fetch or verify live information.
 
-<table>
+## Features
+
+- Two sequential, fixed quiz questions.
+- Case-insensitive answer matching with surrounding whitespace ignored.
+- Immediate feedback after each response, including the expected answer when incorrect.
+- Score tracking and a final result message.
+- Text-based banners for the welcome screen and results.
+
+## Screenshots
+
+<table width="100%">
   <tr>
-    <td align="center"><strong>Question prompt</strong></td>
-    <td align="center"><strong>Completed quiz</strong></td>
+    <td align="center" width="50%"><strong>Question prompt</strong></td>
+    <td align="center" width="50%"><strong>Completed quiz</strong></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/quiz-question.png" width="360" alt="Quiz waiting for the first answer in the terminal"></td>
-    <td align="center"><img src="assets/quiz-results.png" width="360" alt="Quiz results showing a score of two out of two"></td>
+    <td align="center" width="50%"><img src="assets/quiz-question.png" width="100%" alt="Terminal quiz displaying the first question and waiting for the player's answer"></td>
+    <td align="center" width="50%"><img src="assets/quiz-results.png" width="100%" alt="Completed terminal quiz showing correct-answer feedback and a score of two out of two"></td>
   </tr>
 </table>
 
-## ⚡ Run it
+## Technologies
 
-**Requirements:** Python 3.6 or newer. No extra packages required.
+- **Python 3.6 or newer** — the program uses f-strings, introduced in Python 3.6.
+- **Python standard library only** — no third-party packages or installation steps are required.
+- **Command-line input and output** — interaction uses the built-in `input()` and `print()` functions.
 
-From this project directory, run:
+## Concepts practised
+
+- Reading interactive input with `input()`.
+- Normalizing strings with `strip()` and `lower()` before comparing answers.
+- Using `if` / `else` conditionals to check answers and select feedback.
+- Initializing and updating a score variable.
+- Defining and calling a function to print a centered text banner.
+- Formatting output with f-strings.
+
+## Installation and usage
+
+### Prerequisites
+
+- Python 3.6 or newer available on your `PATH`.
+- Git, to clone the repository.
+
+### Run the quiz
 
 ```bash
+git clone https://github.com/chetanaybuilder/Ai-Ml-Month-01-Math-Python.git
+cd Ai-Ml-Month-01-Math-Python/Day-01-Python-Revision-Project
 python main.py
 ```
 
-Enter an answer at each prompt. Answers are case-insensitive, and leading or trailing spaces are ignored.
+On Windows, if `python` is not the Python launcher on your `PATH`, you can run the final command with `py main.py`.
 
-## 📁 Project structure
+Type an answer at each prompt and press Enter. The program accepts answers regardless of letter case and ignores spaces at the beginning or end. After the second response, it displays the score and exits.
+
+## Project structure
 
 ```text
 Day-01-Python-Revision-Project/
-├── assets/
-│   ├── quiz-question.png
-│   └── quiz-results.png
+├── .gitignore
+├── README.md
 ├── main.py
-└── README.md
+└── assets/
+    ├── quiz-question.png
+    └── quiz-results.png
 ```
 
-## 📝 Learning note
+## Learning outcomes
 
-This project is a learning exercise, not a live-data quiz. Its answers are fixed in the code, and the richest-person answer may change over time.
+This exercise brings together basic input handling, string normalization, conditional branching, variable updates, and formatted terminal output in one small runnable program. It also provides practice organizing a project with documentation and screenshot assets.
+
+## Possible next steps
+
+These are ideas for future iterations; they are not part of the current quiz:
+
+- Move questions and answers into a reusable question list.
+- Add a replay option or a configurable question set.
+- Add automated tests for answer checking and score calculation.
 
 ---
 
 <div align="center">
 
-### Created by **chetanaybuilder**
-
-*16-year-old learner · Future founder*
-
-[Explore the AI/ML learning repository](https://github.com/chetanaybuilder/Ai-Ml-Month-01-Math-Python)
-
-*Building one project at a time.*
+Created by [chetanaybuilder](https://github.com/chetanaybuilder)
 
 </div>
