@@ -1,22 +1,32 @@
 <div align="center">
 
-# Python Quiz Challenge
+# 🚀 AI/ML Journey · Day 01
 
-**A beginner-friendly command-line quiz built with Python.**
+### Python Core Revision & Quiz Project
 
-[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Dependencies](https://img.shields.io/badge/Dependencies-None-2EA44F?style=for-the-badge)](#)
-[![Project](https://img.shields.io/badge/Project-Day%2001-8A63D2?style=for-the-badge)](#)
+*Revisiting Python fundamentals and putting them into practice with a small, interactive terminal quiz.*
+
+[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![No dependencies](https://img.shields.io/badge/Dependencies-None-2EA44F?style=flat-square)](#)
+[![Journey](https://img.shields.io/badge/AI%2FML%20Journey-Day%2001-8A63D2?style=flat-square)](#)
 
 </div>
 
 ---
 
-## Overview
+## 📌 Day 01
 
-A lightweight two-question quiz demonstrating core Python concepts: reading user input, normalizing text, using conditional logic, and tracking a score. The terminal interface includes a welcome banner, feedback for each answer, and a final results summary.
+Today I revised core Python concepts as the first step in my AI/ML learning journey, then built a beginner-friendly quiz to apply them. It asks two questions, checks each response, and displays a final score in a styled terminal interface.
 
-## Preview
+### What I practised
+
+- Capturing user input with `input()`
+- Cleaning and comparing text with `strip()` and `lower()`
+- Making decisions with `if` / `else`
+- Tracking a score with variables
+- Formatting clear terminal messages
+
+## 🖥️ Preview
 
 <table>
   <tr>
@@ -24,16 +34,16 @@ A lightweight two-question quiz demonstrating core Python concepts: reading user
     <td align="center"><strong>Completed quiz</strong></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/quiz-question.png" width="420" alt="Quiz waiting for the first answer in the terminal"></td>
-    <td align="center"><img src="assets/quiz-results.png" width="420" alt="Quiz results showing a score of two out of two"></td>
+    <td align="center"><img src="assets/quiz-question.png" width="360" alt="Quiz waiting for the first answer in the terminal"></td>
+    <td align="center"><img src="assets/quiz-results.png" width="360" alt="Quiz results showing a score of two out of two"></td>
   </tr>
 </table>
 
-## Getting started
+## ⚡ Run it
 
-**Requirements:** Python 3.6 or newer. No third-party packages are needed.
+**Requirements:** Python 3.6 or newer. No extra packages required.
 
-Run the quiz from this project directory:
+From this project directory, run:
 
 ```bash
 python main.py
@@ -41,7 +51,7 @@ python main.py
 
 Enter an answer at each prompt. Answers are case-insensitive, and leading or trailing spaces are ignored.
 
-## Project structure
+## 📁 Project structure
 
 ```text
 Day-01-Python-Revision-Project/
@@ -52,14 +62,18 @@ Day-01-Python-Revision-Project/
 └── README.md
 ```
 
-## Notes
+## 📝 Learning note
 
-The answers are intentionally fixed for this beginner exercise. In particular, the richest-person question is time-sensitive and its answer may change.
+This project is a learning exercise, not a live-data quiz. Its answers are fixed in the code, and the richest-person answer may change over time.
 
 ---
 
 <div align="center">
 
-Part of [Ai-Ml-Month-01-Math-Python](https://github.com/chetanaybuilder/Ai-Ml-Month-01-Math-Python)
+### Made by **chetanaybuilder**
+
+*16-year-old learner · Future founder · Building one project at a time*
+
+[Explore the AI/ML learning repository](https://github.com/chetanaybuilder/Ai-Ml-Month-01-Math-Python)
 
 </div>
