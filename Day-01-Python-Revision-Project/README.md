@@ -1,14 +1,16 @@
 <div align="center">
 
-# 🚀 AI/ML Journey · Day 01
+<img src="https://img.shields.io/badge/AI%20%2F%20ML%20LEARNING%20JOURNEY-DAY%2001-14213D?style=for-the-badge&labelColor=0B132B" alt="AI and ML Learning Journey — Day 01">
 
-### Python Core Revision & Quiz Project
+## Python Core Revision
 
-*Revisiting Python fundamentals and putting them into practice with a small, interactive terminal quiz.*
+### A two-question command-line quiz
+
+*A focused first step: revisit Python, build something practical, and keep moving forward.*
 
 [![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![No dependencies](https://img.shields.io/badge/Dependencies-None-2EA44F?style=flat-square)](#)
-[![Journey](https://img.shields.io/badge/AI%2FML%20Journey-Day%2001-8A63D2?style=flat-square)](#)
+[![Zero dependencies](https://img.shields.io/badge/Dependencies-Zero-198754?style=flat-square)](#)
+[![Day 01](https://img.shields.io/badge/PROJECT-DAY%2001-6F42C1?style=flat-square)](#)
 
 </div>
 
@@ -16,15 +18,7 @@
 
 ## 📌 Day 01
 
-Today I revised core Python concepts as the first step in my AI/ML learning journey, then built a beginner-friendly quiz to apply them. It asks two questions, checks each response, and displays a final score in a styled terminal interface.
-
-### What I practised
-
-- Capturing user input with `input()`
-- Cleaning and comparing text with `strip()` and `lower()`
-- Making decisions with `if` / `else`
-- Tracking a score with variables
-- Formatting clear terminal messages
+For Day 01 of my AI/ML journey, I revised Python fundamentals and built this beginner-friendly quiz to put them into practice. It asks two questions, checks each response, and presents the score in a styled terminal interface.
 
 ## 🖥️ Preview
 
@@ -70,10 +64,12 @@ This project is a learning exercise, not a live-data quiz. Its answers are fixed
 
 <div align="center">
 
-### Made by **chetanaybuilder**
+### Created by **chetanaybuilder**
 
-*16-year-old learner · Future founder · Building one project at a time*
+*16-year-old learner · Future founder*
 
 [Explore the AI/ML learning repository](https://github.com/chetanaybuilder/Ai-Ml-Month-01-Math-Python)
+
+*Building one project at a time.*
 
 </div>
