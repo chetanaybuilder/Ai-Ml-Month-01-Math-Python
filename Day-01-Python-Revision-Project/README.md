@@ -18,7 +18,7 @@ Two fixed general-knowledge questions, immediate answer feedback, and a final sc
 
 Python Core Revision is a beginner-friendly terminal quiz created to put core Python syntax into practice. When run, it displays a welcome banner, prompts the player to answer two questions, checks each response, and reports a score out of two with a short result message.
 
-The answers are built into the program. Input matching ignores capitalization and leading or trailing whitespace; the quiz does not fetch or verify live information.
+The accepted answers, `Narendra Modi` and `Elon Musk`, are fixed in the program. Matching ignores capitalization and leading or trailing whitespace; the quiz does not fetch or verify live information.
 
 ## Features
 
@@ -36,8 +36,8 @@ The answers are built into the program. Input matching ignores capitalization an
     <td align="center" width="50%"><strong>Completed quiz</strong></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><img src="assets/quiz-question.png" width="100%" alt="Terminal quiz displaying the first question and waiting for the player's answer"></td>
-    <td align="center" width="50%"><img src="assets/quiz-results.png" width="100%" alt="Completed terminal quiz showing correct-answer feedback and a score of two out of two"></td>
+    <td align="center" width="50%"><img src="assets/quiz-question.png" width="420" alt="Terminal quiz displaying the first question and waiting for the player's answer"></td>
+    <td align="center" width="50%"><img src="assets/quiz-results.png" width="420" alt="Completed terminal quiz showing correct-answer feedback and a score of two out of two"></td>
   </tr>
 </table>
 
@@ -81,10 +81,10 @@ Type an answer at each prompt and press Enter. The program accepts answers regar
 Day-01-Python-Revision-Project/
 ├── .gitignore
 ├── README.md
-├── main.py
-└── assets/
-    ├── quiz-question.png
-    └── quiz-results.png
+├── assets/
+│   ├── quiz-question.png
+│   └── quiz-results.png
+└── main.py
 ```
 
 ## Learning outcomes
